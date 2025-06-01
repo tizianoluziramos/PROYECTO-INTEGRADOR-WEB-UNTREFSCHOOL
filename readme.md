@@ -86,7 +86,7 @@ Las fuentes son importadas desde Google Fonts en el archivo [`css/fonts/font-pop
 
 1. Clona este repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/tizianoluziramos/PROYECTO-INTEGRADOR-WEB-UNTREFSCHOOL.git
    ```
 2. Abre el archivo `index.html` en tu navegador para ver la página principal.
 3. Para explorar los "easter eggs", navega a:
