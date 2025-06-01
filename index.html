@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UntrefSchool - Instituto de Educación</title>
+    <meta
+      name="description"
+      content="Sitio oficial de UntrefSchool, instituto de educación primaria. Información institucional, propuesta educativa y últimas noticias."
+    />
+    <meta name="author" content="Tiziano Tomas Luzi Ramos" />
+    <link href="./css/font-poppins.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="#quienes-somos" id="quienessomos">¿Quiénes somos?</a></li>
+        <li><a href="#por-que-elegirnos" id="porqueelegirnos">¿Por qué elegirnos?</a></li>
+        <li><a href="#propuesta-educativa" id="propuestaeducativa">Propuesta educativa</a></li>
+        <li><a href="#ultimas-noticias" id="ultimasnoticias">Últimas noticias</a></li>
+        <li><a href="#contacto" id="contact">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <header role="banner">
+      <a href="./eastereggs/roll_dice/rolldice.html">
+        <img
+        src="./assets/logo_untref.webp"
+        alt="Logotipo de UntrefSchool"
+        class="img-header"
+        />
+      </a>
+    </header>
+
+    <main role="main">
+      <section id="quienes-somos" tabindex="0">
+        <h2>Quiénes somos</h2>
+        <div class="section-flex">
+          <p>
+            UntrefSchool es una institución educativa comprometida con la
+            formación integral de niños y niñas. Promovemos un ambiente seguro,
+            inclusivo y estimulante, en donde cada estudiante puede desarrollar
+            su máximo potencial.
+          </p>
+          <img
+            src="./assets/quienes_somos.webp"
+            alt="Edificio del instituto"
+            class="img-section"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section id="por-que-elegirnos" tabindex="0">
+        <h2>¿Por qué elegirnos?</h2>
+        <div class="section-flex">
+          <img
+            src="./assets/porque_elegirnos.webp"
+            alt="Aula con estudiantes"
+            class="img-section"
+            loading="lazy"
+          />
+          <p>
+            Contamos con un equipo docente altamente capacitado, tecnología de
+            vanguardia y una propuesta pedagógica moderna que combina
+            conocimientos académicos con habilidades socioemocionales. Nuestra
+            comunidad educativa valora el respeto, la creatividad y el trabajo
+            en equipo.
+          </p>
+        </div>
+      </section>
+
+      <section id="propuesta-educativa" tabindex="0">
+        <h2>Propuesta educativa</h2>
+        <div class="hex-section">
+          <div class="hex">Educación integral</div>
+          <div class="hex">Aprendizaje activo</div>
+          <div class="hex">Innovación pedagógica</div>
+          <div class="hex">Inclusión y diversidad</div>
+        </div>
+      </section>
+
+      <section id="ultimas-noticias" tabindex="0">
+        <h2>Últimas noticias</h2>
+        <div class="news-section">
+          <div class="news">
+            <h3>Comenzó el ciclo lectivo 2025</h3>
+            <p>
+              El lunes 3 de marzo dimos inicio al nuevo año escolar con
+              actividades de bienvenida para todas las familias. ¡Gracias por
+              acompañarnos!
+            </p>
+          </div>
+          <div class="news">
+            <h3>Nuevo laboratorio de ciencias</h3>
+            <p>
+              Inauguramos un moderno espacio para prácticas científicas donde
+              nuestros estudiantes podrán experimentar y descubrir el mundo
+              natural.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" tabindex="0">
+        <h2>Contacto</h2>
+        <form
+          action="https://formsubmit.co/tizianoluziramos@gmail.com"
+          method="POST"
+          autocomplete="off"
+          class="contact-form"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="http://localhost" />
+
+          <label for="nombre">Nombre completo *</label>
+          <input
+            type="text"
+            id="nombre"
+            name="name"
+            required
+            placeholder="Tu nombre"
+          />
+
+          <label for="email">Correo electrónico *</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="tu@email.com"
+          />
+
+          <label for="mensaje">Mensaje *</label>
+          <textarea
+            id="mensaje"
+            name="message"
+            rows="5"
+            required
+            placeholder="Escribe tu mensaje aquí"
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <div class="redes" aria-label="Redes sociales">
+        <h1>Redes sociales</h1>
+        <a href="https://www.facebook.com/untref/?locale=es_LA">Facebook</a>
+        <a href="https://x.com/untref">Twitter</a>
+        <a href="https://www.instagram.com/untref/?hl=en">Instagram</a>
+      </div>
+      <div class="nombre" aria-label="Nombre del instituto">
+        <h1>Instituto</h1>
+        <div
+          class="mapa-container"
+          aria-label="Mapa de ubicación del instituto"
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13124.55534404661!2d-58.5718642459839!3d-34.63991147715733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8b7d229dd3%3A0xdbaeff0f7572f0f8!2sUniversidad%20Nacional%20de%20Tres%20de%20Febrero!5e0!3m2!1ses!2sar!4v1696024230456!5m2!1ses!2sar"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="contactos" aria-label="Datos de contacto">
+        <h1>Contacto</h1>
+        <p>Email: UntrefSchool@gmail.com</p>
+        <p>Tel: +54 (011) 4519-6010</p>
+        <p>WApp: +54 (011) 2563-6753</p>
+      </div>
+    </footer>
+  </body>
+</html>
