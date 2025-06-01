@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto - UntrefSchool</title>
+    <link href="./css/fonts/fonts.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header role="banner">
+      <a href="./index.html">
+        <img
+          src="./assets/logo_untref.webp"
+          alt="Logotipo de UntrefSchool"
+          class="img-header"
+        />
+      </a>
+    </header>
+
+    <main role="main">
+      <section id="contacto" tabindex="0">
+        <h2>Contacto</h2>
+        <form
+          action="https://formsubmit.co/tizianoluziramos@gmail.com"
+          method="POST"
+          autocomplete="off"
+          class="contact-form"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="http://localhost/index.html" />
+
+          <label for="nombre">Nombre completo *</label>
+          <input
+            type="text"
+            id="nombre"
+            name="name"
+            required
+            placeholder="Tu nombre"
+          />
+          <label for="email">Correo electrónico *</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="tu@email.com"
+          />
+
+          <label for="mensaje">Mensaje *</label>
+          <textarea
+            id="mensaje"
+            name="message"
+            rows="5"
+            required
+            placeholder="Escribe tu mensaje aquí"
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <p>© 2025 UntrefSchool. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>

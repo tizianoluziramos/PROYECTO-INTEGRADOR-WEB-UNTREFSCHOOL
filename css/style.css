@@ -4,13 +4,14 @@
 @import url("./modules/nav.css");
 @import url("./modules/section.css");
 @import url("./modules/scrollbar.css");
+@import url("./fonts/fonts.css");
 
 :root {
-  --color-primario: #2c3e50;
-  --color-secundario: #2980b9;
-  --color-acento: #f39c12;
-  --color-claro: #ecf0f1;
-  --color-texto: #2d3436;
+  --color-primario: #00425a;
+  --color-secundario: #1f8a70;
+  --color-acento: #fc7300;
+  --color-claro: #eff5f5;
+  --color-texto: #181823;
   --fuente-principal: "Poppins", sans-serif;
   --fuente-secundaria: "Belanosima", sans-serif;
 }
@@ -79,21 +80,15 @@ textarea:focus {
   margin-bottom: 0.5rem;
 }
 
-.mapa-container {
-  width: 100%;
-  max-width: 400px;
-  height: 250px;
-  margin: 1rem 0;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.mapa-container iframe {
-  width: 100%;
-  height: 100%;
-  border: 0;
-  display: block;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 768px) {
@@ -151,15 +146,3 @@ textarea:focus {
     display: none;
   }
 }
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
