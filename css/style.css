@@ -109,11 +109,39 @@ textarea:focus {
     text-align: center;
     flex-direction: column;
   }
+
+  body {
+    padding: 0 0.5rem;
+  }
+
+  nav {
+    position: static;
+    box-shadow: none;
+  }
 }
 
 @media (max-width: 450px) {
   .mapa-container {
     height: 200px;
+  }
+
+  nav ul {
+    gap: 0.8rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .hex {
+    width: 100px;
+    height: 100px;
+    font-size: 0.9rem;
+  }
+
+  .contact-form button {
+    font-size: 1rem;
+    padding: 0.5rem;
   }
 }
 
@@ -137,8 +165,8 @@ textarea:focus {
   }
 
   .contact-form button {
-    font-size: 1rem;
-    padding: 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.4rem;
   }
 
   .img-header,

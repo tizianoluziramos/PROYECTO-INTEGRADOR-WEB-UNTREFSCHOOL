@@ -1,6 +1,6 @@
 # UNTREF Website
 
-Este repositorio contiene el código fuente del sitio web de **UntrefSchool**, un instituto de educación primaria. El proyecto incluye una página principal, estilos personalizados, y algunos "easter eggs" interactivos.
+Este repositorio contiene el código fuente del sitio web de **UntrefSchool**, un instituto de educación. El proyecto incluye una página principal y estilos personalizados.
 
 ## Estructura del Proyecto
 
@@ -25,22 +25,6 @@ css/
         [`css/modules/nav.css`](css/modules/nav.css )
         [`css/modules/scrollbar.css`](css/modules/scrollbar.css )
         [`css/modules/section.css`](css/modules/section.css )
-eastereggs/
-    roll_dice/
-        [`eastereggs/roll_dice/rolldice.html`](eastereggs/roll_dice/rolldice.html )
-        assets/
-            dice_back.jpg
-            dice_bottom.png
-            dice_front.png
-            dice_left.png
-            dice_right.png
-            dice_top.png
-        css/
-            [`css/style.css`](css/style.css )
-        secret/
-            carnival_game/
-                [`index.html`](index.html )
-                [`css/style.css`](css/style.css )
 ```
 
 ### Archivos Principales
@@ -67,14 +51,6 @@ Archivo principal de estilos que importa módulos específicos para cada secció
 #### `assets/`
 Contiene imágenes utilizadas en el sitio, como el logotipo, imágenes de fondo y fotos de las secciones.
 
-### Easter Eggs
-
-#### `eastereggs/roll_dice/rolldice.html`
-Un dado interactivo que gira en 3D utilizando solo HTML y CSS. Incluye un botón para pausar y reanudar la animación.
-
-#### `eastereggs/roll_dice/secret/carnival_game/index.html`
-Un juego de carnaval donde los usuarios pueden interactuar con objetivos en movimiento. El juego utiliza estilos avanzados para animaciones y efectos visuales.
-
 ### Fuentes
 El proyecto utiliza las siguientes fuentes:
 - **Poppins**: Fuente principal para el contenido.
@@ -89,9 +65,6 @@ Las fuentes son importadas desde Google Fonts en el archivo [`css/fonts/font-pop
    git clone https://github.com/tizianoluziramos/PROYECTO-INTEGRADOR-WEB-UNTREFSCHOOL.git
    ```
 2. Abre el archivo `index.html` en tu navegador para ver la página principal.
-3. Para explorar los "easter eggs", navega a:
-   - `eastereggs/roll_dice/rolldice.html`
-   - `eastereggs/roll_dice/secret/carnival_game/index.html`
 
 ## Créditos
 

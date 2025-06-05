@@ -12,7 +12,6 @@
   padding: 0;
 }
 
-/* Reset para todos los botones para evitar que se dividan */
 ::-webkit-scrollbar-button {
   display: block;
   width: 100%;
@@ -23,7 +22,6 @@
   border: none;
 }
 
-/* Flecha arriba - apunta hacia arriba */
 ::-webkit-scrollbar-button:vertical:increment {
   border-style: solid;
   border-width: 6px 5px 0 5px;
@@ -33,7 +31,6 @@
   cursor: pointer;
 }
 
-/* Flecha abajo - apunta hacia abajo */
 ::-webkit-scrollbar-button:vertical:decrement {
   border-style: solid;
   border-width: 0 5px 6px 5px;
