@@ -17,7 +17,7 @@ assets/
 css/
     [`css/style.css`](css/style.css )
     fonts/
-        [`css/fonts/font-poppins.css`](css/fonts/font-poppins.css )
+        [`css/fonts/fonts.css`](css/fonts/fonts.css )
     modules/
         [`css/modules/footer.css`](css/modules/footer.css )
         [`css/modules/formulario_contacto.css`](css/modules/formulario_contacto.css )
